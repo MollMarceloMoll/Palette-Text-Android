@@ -20,20 +20,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etEjemplo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="50"
-        android:text=""
         android:background="@drawable/style_etbg"
-        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawableStart="@drawable/ic_baseline_business_center_24"
         android:drawablePadding="10dp"
+        android:ems="50"
+        android:hint="Email"
         android:paddingStart="10dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:hint="Email "
         android:shadowColor="@color/black"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="453dp" />
+        android:textColorHint="@color/black"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:text="0123456789"
+        android:digits="0123456789"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
